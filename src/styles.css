@@ -1,47 +1,43 @@
 /*font-family: 'Mulish', sans-serif;
 font-family: 'Nanum Myeongjo', serif;
 */
-
 :root {
   --primary-color: rgb(243, 243, 243);
   --secondary-color: #313131;
 }
+
 .resize {
   width: 300px;
   display: block;
   margin-left: 100px;
   border-radius: 50%;
 }
-
 body {
   background-color: var(--primary-color);
 }
-
 .profile {
   margin-top: 50px;
   font-family: "Mulish", sans-serif;
 }
-
 .personal-info {
   margin-top: 100px;
   margin-bottom: 150px;
 }
-
 .navbar-toggler-icon {
   color: white;
 }
-
+.image-container {
+  padding: none;
+}
 button {
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
-
 nav {
   background-color: black;
   opacity: 80%;
 }
-
 section {
   background-color: var(--secondary-color);
 }
