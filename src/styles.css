@@ -4,6 +4,35 @@ font-family: 'Nanum Myeongjo', serif;
 :root {
   --primary-color: rgb(243, 243, 243);
   --secondary-color: #313131;
+  --third-color: #6c6c6c;
+}
+
+.sticker1 {
+  width: 370px;
+  position: relative;
+  top: 400px;
+  left: 25px;
+  transform: rotateZ(347deg);
+}
+
+.sticker2 {
+  width: 225px;
+  position: relative;
+  top: 10px;
+  right: 300px;
+}
+
+@media (max-width: 770px) {
+  .app-info {
+    text-align: center;
+  }
+
+  .presentation {
+    font-size: 35px;
+  }
+  .information-front {
+    font-size: 19px;
+  }
 }
 
 .resize {
@@ -14,33 +43,85 @@ font-family: 'Nanum Myeongjo', serif;
 }
 body {
   background-color: var(--primary-color);
+  border: none;
+  color: var(--secondary-color);
 }
-.profile {
-  margin-top: 50px;
-  font-family: "Mulish", sans-serif;
+
+.title {
+  margin-top: 40px;
 }
-.personal-info {
-  margin-top: 100px;
-  margin-bottom: 150px;
+
+.complete-desc {
+  margin-bottom: 20px;
 }
-.navbar-toggler-icon {
+.profile-container {
+  display: block;
+  margin-top: 70px;
+  margin-bottom: 250px;
+}
+
+.links-black {
+  color: var(--secondary-color);
+  text-decoration: none;
+  color: black;
+}
+
+.links {
+  color: var(--secondary-color);
+  text-decoration: none;
   color: white;
 }
-.image-container {
-  padding: none;
+
+.link-about {
+  display: block;
+  text-align: center;
+  color: var(--secondary-color);
+  text-decoration: none;
 }
-button {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+.link-about:hover {
+  text-decoration: underline;
 }
+
+.links-black:hover {
+  text-decoration: underline;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.app-info {
+  color: var(--primary-color);
+}
+
+.project-image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.front-end {
+  color: var(--third-color);
+}
+.projects {
+  color: var(--primary-color);
+}
+
 nav {
-  background-color: black;
-  opacity: 80%;
+  opacity: 90%;
+  color: white;
 }
 section {
   background-color: var(--secondary-color);
 }
-button:hover {
-  text-decoration: underline;
+
+.aboutme-container {
+  margin-top: 100px;
+}
+
+.description {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
 }

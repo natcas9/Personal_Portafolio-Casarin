@@ -44,22 +44,23 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-dark fixed-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">👩🏽‍💻 Natalia Casarin</a>
+        <a class="navbar-brand" href="index.html">👩🏽‍💻Natalia Casarín</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">home</a>
             </li>
@@ -70,24 +71,77 @@
               <a class="nav-link" href="about.html">about me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">contact me</a>
+              <a class="nav-link" href="about.html">contact me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- End Navbar -->
-    <div class="profile">
-      <div class="row">
-        <div class="col-6 personal-info">
-          <h1>Natalia Casarín</h1>
-          <h2 class="special-info">Front-end Developer</h2>
-          <button>About me ></button>
-        </div>
-        <div class="col-6 image-container">
-          <img src="id-c.jpg" class="img-fluid resize" alt="" />
-        </div>
+    <img src="/img-stickers/sticker1.png" class="img-fluid sticker1" alt="" />
+    <img src="/img-stickers/Sticker2.png" class="img-fluid sticker2" alt="" />
+    <div class="profile-container">
+      <div class="personal-info">
+        <h1 class="text-center name">Natalia Casarín Sánchez</h1>
+        <h2 class="text-center front-end">Jr. Front-end Developer</h2>
+        <a href="about.html" class="link-about">About me ></a>
       </div>
     </div>
+    <section>
+      <div id="projects">
+        <div class="container app-info">
+          <div class="row">
+            <div class="col-md-6 complete-desc">
+              <h2 class="title">Weather App</h2>
+              <p class="description">
+                This app was buit with HTML, CSS, Javascript and a weather API.
+                It contains a search bar where you can explores the real time
+                weather of different cities and your current location. It
+                contains default cities and a weather forecast of the following
+                week.
+              </p>
+
+              <a
+                href="https://weatherappnatcas.netlify.app"
+                target="_blank"
+                class="links"
+                title="Weather App"
+                >Launch Weather App ></a
+              >
+            </div>
+            <div class="col-md-6">
+              <img
+                src="/img-project/weather-img.png"
+                class="project-image img-fluid rounded d-none d-md-block"
+                alt="weatherapp"
+              />
+            </div>
+            <div class="col-md-6">
+              <img
+                src="/img-project/world-clock.png"
+                class="project-image img-fluid rounded d-none d-md-block"
+                alt="world clock app"
+              />
+            </div>
+            <div class="col-md-6">
+              <h2 class="title">World Clock App</h2>
+              <p class="description">
+                This app was built with HTML, CSS, Javascript and a world clock
+                API. It contains a select bar where you can explore the time in
+                real time ofdifferent cities around the world and your current
+                location.
+              </p>
+
+              <a
+                href="https://worldclocknatcas.netlify.app"
+                target="_blank"
+                title="World Clock App"
+                class="links"
+                >Launch World Clock App ></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
