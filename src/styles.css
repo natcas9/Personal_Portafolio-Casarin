@@ -33,6 +33,9 @@ font-family: 'Nanum Myeongjo', serif;
   .information-front {
     font-size: 19px;
   }
+  .about-section {
+    text-align: center;
+  }
 }
 
 .resize {
@@ -45,19 +48,21 @@ font-family: 'Nanum Myeongjo', serif;
 .hello-world {
   margin-bottom: 20px;
   color: var(--third-color);
+  font-weight: bold;
 }
 
 .profile-background {
-  background-image: url("/profile-back4.jpg"); /* Replace with the path to your background image */
+  background-image: url("/profile-back4.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Set to 100% of the viewport height */
+  height: 100vh;
   position: relative;
 }
 body {
   background-color: var(--primary-color);
   border: none;
   color: var(--secondary-color);
+  font-family: "Mulish", sans-serif;
 }
 
 .title {
@@ -93,6 +98,16 @@ body {
   color: var(--secondary-color);
   text-decoration: none;
   font-size: 20px;
+  margin-top: 20px;
+}
+
+.link-projects {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.link-projects:hover {
+  text-decoration: underline;
 }
 .link-about:hover {
   text-decoration: underline;
@@ -119,6 +134,8 @@ body {
 
 .front-end {
   color: var(--third-color);
+  margin-top: 20px;
+  font-weight: bold;
 }
 .projects {
   color: var(--primary-color);
@@ -132,8 +149,8 @@ section {
   background-color: var(--secondary-color);
 }
 
-.aboutme-container {
-  margin-top: 100px;
+.aboutme {
+  margin-top: 80px;
 }
 
 .description {
@@ -144,6 +161,19 @@ section {
 
 .about-description {
   text-align: justify;
-  max-width: 700px;
+}
+
+.about-section {
+  margin: 15px;
+}
+
+.name {
+  font-size: 80px;
+}
+
+.id-profile {
+  border-radius: 10px;
+  width: 300px;
+  display: block;
   margin: 0 auto;
 }
