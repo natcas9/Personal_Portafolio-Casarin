@@ -4,7 +4,7 @@ font-family: 'Nanum Myeongjo', serif;
 :root {
   --primary-color: rgb(243, 243, 243);
   --secondary-color: #313131;
-  --third-color: #6c6c6c;
+  --third-color: #5c5c5c;
 }
 
 .sticker1 {
@@ -41,6 +41,19 @@ font-family: 'Nanum Myeongjo', serif;
   margin-left: 100px;
   border-radius: 50%;
 }
+
+.hello-world {
+  margin-bottom: 20px;
+  color: var(--third-color);
+}
+
+.profile-background {
+  background-image: url("/profile-back4.jpg"); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set to 100% of the viewport height */
+  position: relative;
+}
 body {
   background-color: var(--primary-color);
   border: none;
@@ -54,10 +67,12 @@ body {
 .complete-desc {
   margin-bottom: 20px;
 }
-.profile-container {
-  display: block;
-  margin-top: 250px;
-  margin-bottom: 250px;
+
+.personal-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .links-black {
@@ -77,6 +92,7 @@ body {
   text-align: center;
   color: var(--secondary-color);
   text-decoration: none;
+  font-size: 20px;
 }
 .link-about:hover {
   text-decoration: underline;
@@ -124,4 +140,10 @@ section {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 20px;
+}
+
+.about-description {
+  text-align: justify;
+  max-width: 700px;
+  margin: 0 auto;
 }
