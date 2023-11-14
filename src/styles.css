@@ -7,21 +7,6 @@ font-family: 'Nanum Myeongjo', serif;
   --third-color: #5c5c5c;
 }
 
-.sticker1 {
-  width: 370px;
-  position: relative;
-  top: 400px;
-  left: 25px;
-  transform: rotateZ(347deg);
-}
-
-.sticker2 {
-  width: 225px;
-  position: relative;
-  top: 10px;
-  right: 300px;
-}
-
 @media (max-width: 770px) {
   .app-info {
     text-align: center;
@@ -176,4 +161,16 @@ section {
   width: 300px;
   display: block;
   margin: 0 auto;
+}
+
+.resize-img {
+  width: 375px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.works-section {
+  margin: 80px 40px;
+  font-size: 30px;
 }
