@@ -84,6 +84,7 @@ body {
   text-decoration: none;
   font-size: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .link-projects {
@@ -171,6 +172,11 @@ section {
 }
 
 .works-section {
-  margin: 80px 40px;
-  font-size: 30px;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  margin-left: 40px;
+}
+
+.work-des {
+  font-size: 35px;
 }
