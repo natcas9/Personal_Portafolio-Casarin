@@ -84,7 +84,7 @@ body {
   text-decoration: none;
   font-size: 20px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .link-projects {
@@ -172,11 +172,16 @@ section {
 }
 
 .works-section {
-  margin-top: 90px;
+  margin-top: 100px;
   margin-bottom: 70px;
-  margin-left: 40px;
+  text-align: center;
 }
 
 .work-des {
   font-size: 35px;
+}
+
+.built-desc {
+  color: var(--third-color);
+  font-size: 15px;
 }
