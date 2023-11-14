@@ -52,7 +52,7 @@ font-family: 'Nanum Myeongjo', serif;
 }
 
 .profile-background {
-  background-image: url("/profile-back4.jpg");
+  background-image: url("/back-map.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
