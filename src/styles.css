@@ -185,3 +185,7 @@ section {
   color: var(--third-color);
   font-size: 15px;
 }
+
+.contact-container {
+  margin-top: 170px;
+}
