@@ -136,7 +136,7 @@ section {
 }
 
 .aboutme {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .description {
@@ -184,10 +184,6 @@ section {
 .built-desc {
   color: var(--third-color);
   font-size: 15px;
-}
-
-.contact-container {
-  margin-top: 170px;
 }
 
 footer .email-link {
@@ -250,4 +246,8 @@ h4 {
 
 .contact-work {
   margin-left: 45px;
+}
+
+.contact-container {
+  margin-top: 180px;
 }
