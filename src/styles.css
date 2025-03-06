@@ -30,9 +30,15 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
-nav {
-  opacity: 90%;
-  color: white;
+.navbar {
+  height: 80px; /* Ajusta la altura según necesites */
+  display: flex;
+  align-items: center; /* Alinea el contenido verticalmente */
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px; /* Ajusta el tamaño del texto */
+  line-height: 1; /* Asegura que la altura del texto sea uniforme */
 }
 section {
   background-color: var(--secondary-color);
